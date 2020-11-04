@@ -1,0 +1,10 @@
+package test_p49;
+
+public class Sample2_22
+{
+	public static void main(String[] args)
+	{
+		int [][] test;
+		test = new int[2][5];
+	}
+}

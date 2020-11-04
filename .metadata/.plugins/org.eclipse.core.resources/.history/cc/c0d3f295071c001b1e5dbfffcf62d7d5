@@ -1,0 +1,23 @@
+package test_p45;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class Sample2_20
+{
+	public static void main(String[] args) throws IOException
+	{
+		BufferedReader br = new
+				BufferedReader(new InputStreamReader(System.in));
+		
+		System.out.println("請輸入五個人的分數");
+		int test[] = new int[5];
+		
+		for (int i = 1;i < test.length; i++)
+		{
+			String str = br.readLine();
+			test[i] = Integer.parseInt(str);
+		}		
+	}
+}
